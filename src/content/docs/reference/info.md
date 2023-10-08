@@ -1,6 +1,6 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: Info
+description: A reference page for the info category inside the Tako Discord bot.
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.
