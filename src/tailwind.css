@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-Add additional Tailwind styles to this file, for example with @layer:
-https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
-*/
+html[data-theme='light'] .starlight-aside--note {
+	--sl-color-asides-text-accent: theme('colors.accent.800');
+}
+
+.starlight-aside--note {
+	--sl-color-asides-text-accent: theme('colors.accent.300');
+	@apply bg-accent-100 dark:bg-accent-800 border-accent-400 dark:border-accent-500;
+}
