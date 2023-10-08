@@ -7,6 +7,7 @@ export default defineConfig({
   site: "https://tako-docs-astro.netlify.app/",
   integrations: [
     starlight({
+      favicon: "favicon.png",
       title: "Tako User Docs",
       logo: {
         light: "./src/assets/wordmark_light.svg",
@@ -26,11 +27,18 @@ export default defineConfig({
           ],
         },
         {
+          label: "Info",
+          autogenerate: { directory: "info" },
+        },
+        {
           label: "Reference",
           autogenerate: { directory: "reference" },
         },
       ],
       customCss: ["./src/tailwind.css"],
+      components: {
+        SiteTitle: "./src/components/SiteTitle.astro",
+      },
     }),
     tailwind({ applyBaseStyles: false }),
   ],
