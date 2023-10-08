@@ -10,3 +10,7 @@ html[data-theme='light'] .starlight-aside--note {
 	--sl-color-asides-text-accent: theme('colors.accent.300');
 	@apply bg-accent-100 dark:bg-accent-800 border-accent-400 dark:border-accent-500;
 }
+
+img {
+	@apply rounded-lg;
+}
