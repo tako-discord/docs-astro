@@ -1,0 +1,7 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/SiteTitle.astro';
+---
+
+<Default {...Astro.props} /><slot />
+<a href="/" class="ml-2 text-gray-50 no-underline hover:underline"><h2>Docs</h2></a>
