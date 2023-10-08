@@ -1,30 +1,37 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
-import tailwind from '@astrojs/tailwind';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
+import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'Docs with Tailwind',
-			social: {
-				github: 'https://github.com/withastro/starlight',
-			},
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
-			customCss: ['./src/tailwind.css'],
-		}),
-		tailwind({ applyBaseStyles: false }),
-	],
+  site: "https://tako-docs-astro.netlify.app/",
+  integrations: [
+    starlight({
+      title: "Tako User Docs",
+      logo: {
+        light: "./src/assets/wordmark_light.svg",
+        dark: "./src/assets/wordmark_dark.svg",
+        replacesTitle: true,
+      },
+      social: {
+        github: "https://github.com/tako-discord/docs-astro",
+        discord: "https://discord.gg/wDm8Qe6mud",
+      },
+      sidebar: [
+        {
+          label: "Guides",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "Getting Started", link: "/guides/getting-started/" },
+          ],
+        },
+        {
+          label: "Reference",
+          autogenerate: { directory: "reference" },
+        },
+      ],
+      customCss: ["./src/tailwind.css"],
+    }),
+    tailwind({ applyBaseStyles: false }),
+  ],
 });
