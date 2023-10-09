@@ -37,6 +37,7 @@ module.exports = {
 			},
 			fontFamily: {
 				sans: ['Lato', 'Inter'],
+				display: ['GeneralSans', 'Lato', 'Inter'],
 			},
 		},
 	},

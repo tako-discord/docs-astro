@@ -52,7 +52,7 @@ export default defineConfig({
 					lang: 'de',
 				},
 			},
-			customCss: ['./src/tailwind.css'],
+			customCss: ['./src/tailwind.css', './src/fonts/lato.css', './src/fonts/general-sans.css'],
 			components: {
 				SiteTitle: './src/components/SiteTitle.astro',
 			},
