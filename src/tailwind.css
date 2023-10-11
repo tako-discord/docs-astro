@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root,
-::backdrop {
-	--sl-color-text-accent: theme('colors.accent.500') !important;
+:root {
+	--sl-color-orange: theme('colors.yellow.500');
+	--sl-color-orange-low: theme('colors.yellow.900');
+	--sl-color-orange-high: theme('colors.yellow.100');
 }
 
 html[data-theme='light'] .starlight-aside--note {
