@@ -55,6 +55,8 @@ export default defineConfig({
 			customCss: ['./src/tailwind.css', './src/fonts/lato.css', './src/fonts/general-sans.css'],
 			components: {
 				SiteTitle: './src/components/SiteTitle.astro',
+				Head: './src/components/Head.astro',
+				Header: './src/components/Header.astro',
 			},
 		}),
 		tailwind({ applyBaseStyles: false }),
