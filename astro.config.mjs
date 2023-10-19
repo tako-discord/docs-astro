@@ -20,48 +20,63 @@ export default defineConfig({
 		github: 'https://github.com/tako-discord/docs-astro',
 		discord: 'https://discord.gg/wDm8Qe6mud'
 		},
-		sidebar: [{
-		label: 'Guides',
-		translations: {
-			de: 'Anleitungen'
-		},
-		items: [
-		// Each item here is one entry in the navigation menu.
-		{
-			label: 'Getting Started',
-			link: '/guides/getting-started/'
-		}]
-		}, {
-		label: 'Info',
-		autogenerate: {
-			directory: 'info'
-		}
-		}, {
-		label: 'Reference',
-		translations: {
-			de: 'Referenz'
-		},
-		autogenerate: {
-			directory: 'reference'
-		},
-		collapsed: true
-		}],
+		sidebar: [
+			// Each item here is one entry in the navigation menu.
+			{
+				label: 'Guides',
+				translations: {
+					de: 'Anleitungen'
+				},
+				autogenerate: {
+					directory: 'guides'
+				}
+			},
+			{
+				label: 'Commands',
+				items: [
+					{
+						label: 'Info',
+						autogenerate: {
+							directory: 'commands/info'
+						},
+					},
+					{
+						label: 'Utility',
+						translations: {
+							de: 'Nützlich'
+						},
+						autogenerate: {
+							directory: 'commands/utility'
+						},
+					}
+				]
+			}, {
+				label: 'Reference',
+				translations: {
+					de: 'Referenz'
+				},
+				autogenerate: {
+					directory: 'reference'
+				},
+				collapsed: true
+			}
+		],
 		defaultLocale: 'root',
 		locales: {
-		root: {
-			label: 'English',
-			lang: 'en'
-		},
-		de: {
-			label: 'Deutsch',
-			lang: 'de'
-		}
+			root: {
+				label: 'English',
+				lang: 'en'
+			},
+			de: {
+				label: 'Deutsch',
+				lang: 'de'
+			}
 		},
 		customCss: ['./src/tailwind.css', './src/fonts/lato.css', './src/fonts/general-sans.css'],
 		components: {
 		SiteTitle: './src/components/SiteTitle.astro'
-		}
-  }),
+		},
+  	}),
   tailwind({ applyBaseStyles: false }),
   webmanifest({
 	name: "Tako User Docs",
