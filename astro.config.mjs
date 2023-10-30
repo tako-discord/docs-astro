@@ -20,8 +20,10 @@ export default defineConfig({
 		github: 'https://github.com/tako-discord/docs-astro',
 		discord: 'https://discord.gg/wDm8Qe6mud'
 		},
+		editLink: {
+			baseUrl: 'https://github.com/tako-discord/docs-astro/edit/master/',
+		},
 		sidebar: [
-			// Each item here is one entry in the navigation menu.
 			{
 				label: 'Guides',
 				translations: {
