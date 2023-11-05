@@ -8,6 +8,7 @@ Du liest gerade die Dokumentation für die **nächste** version von Tako. Deshal
 
 Komm bald™️ wieder, für mehr Informationen!
 
+<br />
 <a href='https://www.netlify.com'>
   <img
     src='https://www.netlify.com/v3/img/components/netlify-light.svg'

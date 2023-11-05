@@ -8,6 +8,7 @@ You are reading the documentation for the **next** version of Tako. As such, the
 
 Check back soon™️ for more information!
 
+<br />
 <a href='https://www.netlify.com'>
   <img
     src='https://www.netlify.com/v3/img/components/netlify-light.svg'
