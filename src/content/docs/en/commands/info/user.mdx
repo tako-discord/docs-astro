@@ -4,6 +4,7 @@ description: A reference page for the "/info user" command inside the Tako Disco
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
 
 With `/info user`, you can get information about a user on Discord. This is useful to get all the important info at a glance, especially when mentions you got sent, are broken (similar looking to `<@751092600890458203>`).
 
@@ -14,6 +15,7 @@ With `/info user`, you can get information about a user on Discord. This is usef
 		<code>/info user</code>
 	</TabItem>
 	<TabItem label="Context Menu">
+		<Badge text='Coming soon' />
 		[*User Context Menu*](../../../../reference/context-menus/#user-context-menu) > *Apps* > *User Info*
 	</TabItem>
 </Tabs>
