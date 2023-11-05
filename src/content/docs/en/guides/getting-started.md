@@ -2,7 +2,7 @@
 title: Getting started
 description: A guide to getting started with Tako.
 ---
-:::warning
+:::caution
 You are reading the documentation for the **next** version of Tako. As such, the documentation may be incomplete or incorrect.
 :::
 
