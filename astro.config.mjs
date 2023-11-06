@@ -50,6 +50,15 @@ export default defineConfig({
 						autogenerate: {
 							directory: 'commands/utility'
 						},
+					},
+					{
+						label: 'Miscellaneous',
+						translations: {
+							de: 'Anderes'
+						},
+						autogenerate: {
+							directory: 'commands/misc'
+						},
 					}
 				]
 			}, {
