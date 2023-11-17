@@ -81,10 +81,10 @@
     sitemap "^7.1.1"
     zod "3.21.1"
 
-"@astrojs/starlight-tailwind@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-2.0.0.tgz#f9781dcbbf9d53c903e9496ae24c5c3a616ddff7"
-  integrity sha512-4nMAYpjygQAOHIEXqRCFqjxpqTiCt8vFVlfr+glrJL7JCFYaKod/KQQoY/ykPy1Ez/QTPp424vmNfDJXxZoBRw==
+"@astrojs/starlight-tailwind@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-2.0.1.tgz#0a5b22367f8aaa9ab60f50ccf1ef773c1fe92bdc"
+  integrity sha512-niMgFcR7NHcsBVy8UAN3F2gqhmoN5v83st5Hu4YzvUL+6SNwjQmIipXppXdN9+iVneRjPr6PLGzDfI+wnjSBWQ==
 
 "@astrojs/starlight@^0.12.1":
   version "0.12.1"
