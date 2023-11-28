@@ -93,26 +93,26 @@
   dependencies:
     prismjs "^1.29.0"
 
-"@astrojs/sitemap@^3.0.0":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.0.1.tgz#9cb07531918b5b652f4a74c927d90c1be1f19528"
-  integrity sha512-ErCthOQF0Yt6KkvaS+v/7CM6TxztOPHJjla4cbM3fBAFsDQbCS3tvoWSMqPJtmTFiy7veQ1eC5gH58FhPe85zg==
+"@astrojs/sitemap@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.0.3.tgz#9b9be1397f94cd4459a88ebac129ed63888a0e67"
+  integrity sha512-+GRKp1yho9dpHBcMcU6JpbL41k0yYZghOkNsMRb8QIRflbGHvd787tdv9oIZ5NJj0SqAuOlqp2UpqLkJXuAe2A==
   dependencies:
     sitemap "^7.1.1"
-    zod "3.21.1"
+    zod "^3.22.4"
 
 "@astrojs/starlight-tailwind@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-2.0.1.tgz#0a5b22367f8aaa9ab60f50ccf1ef773c1fe92bdc"
   integrity sha512-niMgFcR7NHcsBVy8UAN3F2gqhmoN5v83st5Hu4YzvUL+6SNwjQmIipXppXdN9+iVneRjPr6PLGzDfI+wnjSBWQ==
 
-"@astrojs/starlight@^0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.13.0.tgz#4389bde1a5b7c5a8567e78eb3e4035ce256b1d24"
-  integrity sha512-3SVWGP9Qze3UkM5Wozpx+5v9dh75ZFPSHRqzeuXNtctn5nHjlzvOgIIQnuyyNhIEQMfml1lo83jL3Vsf7Qk7Iw==
+"@astrojs/starlight@^0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.13.1.tgz#a7e5c39d3a07be554477fd981f0ff84eefe95d49"
+  integrity sha512-cJ3WQcX3KAedH1uRApxp6usacCcRd76jsWT1V2j4rqWU817PBFrhF7xAsvm4aQaWPryqmsFOmBwSg+iOLsGNew==
   dependencies:
     "@astrojs/mdx" "^1.1.0"
-    "@astrojs/sitemap" "^3.0.0"
+    "@astrojs/sitemap" "^3.0.3"
     "@pagefind/default-ui" "^1.0.3"
     "@types/mdast" "^3.0.11"
     astro-expressive-code "^0.29.0"
@@ -4467,11 +4467,6 @@ yocto-queue@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.0.0.tgz#7f816433fb2cbc511ec8bf7d263c3b58a1a3c251"
   integrity sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==
-
-zod@3.21.1:
-  version "3.21.1"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.21.1.tgz#ac5bb7cf68876281ebd02f95ac4bb9a080370282"
-  integrity sha512-+dTu2m6gmCbO9Ahm4ZBDapx2O6ZY9QSPXst2WXjcznPMwf2YNpn3RevLx4KkZp1OPW/ouFcoBtBzFz/LeY69oA==
 
 zod@^3.22.2, zod@^3.22.4:
   version "3.22.4"
