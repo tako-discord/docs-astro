@@ -106,10 +106,10 @@
   resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-2.0.1.tgz#0a5b22367f8aaa9ab60f50ccf1ef773c1fe92bdc"
   integrity sha512-niMgFcR7NHcsBVy8UAN3F2gqhmoN5v83st5Hu4YzvUL+6SNwjQmIipXppXdN9+iVneRjPr6PLGzDfI+wnjSBWQ==
 
-"@astrojs/starlight@^0.13.1":
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.13.1.tgz#a7e5c39d3a07be554477fd981f0ff84eefe95d49"
-  integrity sha512-cJ3WQcX3KAedH1uRApxp6usacCcRd76jsWT1V2j4rqWU817PBFrhF7xAsvm4aQaWPryqmsFOmBwSg+iOLsGNew==
+"@astrojs/starlight@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.14.0.tgz#ca0014a17301b0f37b3c4f00d38592b922e8e81e"
+  integrity sha512-wrve52CIIymvntjf2QCfCFpYrmZTyD1qObkvLImeGDVAAyNdUnNlj6MU6SkqQg2fQkJcX9Kh4zkwepm79zYveQ==
   dependencies:
     "@astrojs/mdx" "^1.1.0"
     "@astrojs/sitemap" "^3.0.3"
