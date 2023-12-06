@@ -10,6 +10,9 @@ export default defineConfig({
 	experimental: {
 		contentCollectionCache: true,
 	},
+	image: {
+		service: passthroughImageService(),
+	},
 	integrations: [
 		starlight({
 			favicon: 'favicon.png',
