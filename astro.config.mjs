@@ -1,4 +1,4 @@
-import { defineConfig, passthroughImageService } from 'astro/config';
+import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
 
@@ -7,12 +7,6 @@ import webmanifest from 'astro-webmanifest';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://tako-docs-astro.netlify.app/',
-	experimental: {
-		contentCollectionCache: true,
-	},
-	image: {
-		service: passthroughImageService(),
-	},
 	integrations: [
 		starlight({
 			favicon: 'favicon.png',
