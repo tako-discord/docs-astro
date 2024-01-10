@@ -106,10 +106,10 @@
   resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-2.0.1.tgz#0a5b22367f8aaa9ab60f50ccf1ef773c1fe92bdc"
   integrity sha512-niMgFcR7NHcsBVy8UAN3F2gqhmoN5v83st5Hu4YzvUL+6SNwjQmIipXppXdN9+iVneRjPr6PLGzDfI+wnjSBWQ==
 
-"@astrojs/starlight@0.15.2":
-  version "0.15.2"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.15.2.tgz#51ca8bdd168b236813aac3f8e5d4c37d2f5381a1"
-  integrity sha512-HGs8IWAVsJI2wc8eIotXNavM3LDi6RVeGHI0PqsP4jdK0qB3mXC8VIBMaeSYP9ySUbX2JwNTdJgp3jDfrXtopA==
+"@astrojs/starlight@0.15.3":
+  version "0.15.3"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.15.3.tgz#02e2354133a1f85ea9261de66d3ccd2139dea347"
+  integrity sha512-4lyVwn0SEOHN6fRS++hYLjPa/Ax6uw2g29z/Y9n1oWwGxnly0R1T1GsSXfciGE0o2fCLzbFLx8KffS/OZWUwIw==
   dependencies:
     "@astrojs/mdx" "^2.0.0"
     "@astrojs/sitemap" "^3.0.3"
@@ -118,7 +118,6 @@
     "@types/mdast" "^4.0.3"
     astro-expressive-code "^0.30.1"
     bcp-47 "^2.1.0"
-    execa "^8.0.1"
     hast-util-select "^6.0.2"
     hastscript "^8.0.0"
     mdast-util-directive "^3.0.0"
