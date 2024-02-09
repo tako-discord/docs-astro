@@ -25,26 +25,6 @@
   resolved "https://registry.yarnpkg.com/@astrojs/internal-helpers/-/internal-helpers-0.2.1.tgz#4e2e6aabaa9819f17119aa10f413c4d6122c94cf"
   integrity sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==
 
-"@astrojs/markdown-remark@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-4.1.0.tgz#17cf55d38064859595ad6dfac5b951a1c22e0da9"
-  integrity sha512-JnIy6zk+6f/SgSVMZecZFxQt0faT1uBckwYCuBxKH1hYYJsal8OOe+tx6JxfnyaV+xViyjUvQ28mmn+p/F5LkQ==
-  dependencies:
-    "@astrojs/prism" "^3.0.0"
-    github-slugger "^2.0.0"
-    import-meta-resolve "^4.0.0"
-    mdast-util-definitions "^6.0.0"
-    rehype-raw "^7.0.0"
-    rehype-stringify "^10.0.0"
-    remark-gfm "^4.0.0"
-    remark-parse "^11.0.0"
-    remark-rehype "^11.0.0"
-    remark-smartypants "^2.0.0"
-    shikiji "^0.9.18"
-    unified "^11.0.4"
-    unist-util-visit "^5.0.0"
-    vfile "^6.0.1"
-
 "@astrojs/markdown-remark@4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-4.2.1.tgz#2fba4aba6563914675cca759b635144b6c53e704"
@@ -65,12 +45,12 @@
     unist-util-visit "^5.0.0"
     vfile "^6.0.1"
 
-"@astrojs/mdx@^2.0.4":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-2.0.5.tgz#539af0ee2258ff827c90e9bf74d131f87fd08117"
-  integrity sha512-3+1E11J6Yfb8XZIyaEBtJNdc4Dn9YbforPgmxiY5SYa0C5+f6KEUQi30Hd9I/tA8ytS+1MXw6ZE1BXbaRUo3ZA==
+"@astrojs/mdx@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-2.1.1.tgz#0c9c9f46a19901b6ca436527e95093af5f90abc9"
+  integrity sha512-AgGFdE7HOGmoFooGvMSatkA9FiSKwyVW7ImHot/bXJ6uAbFfu6iG2ht18Cf1pT22Hda/6iSCGWusFvBv0/EnKQ==
   dependencies:
-    "@astrojs/markdown-remark" "4.1.0"
+    "@astrojs/markdown-remark" "4.2.1"
     "@mdx-js/mdx" "^3.0.0"
     acorn "^8.11.2"
     es-module-lexer "^1.4.1"
@@ -93,7 +73,7 @@
   dependencies:
     prismjs "^1.29.0"
 
-"@astrojs/sitemap@^3.0.4":
+"@astrojs/sitemap@^3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.0.5.tgz#f7313c21f4eba2ba6d22936326af70f889c53414"
   integrity sha512-60eLzNjMza3ABypiQPUC6ElOSZNZeY5CwSwgJ03hfeonl+Db9x12CCzBFdTw7A5Mq+O54xEZVUrR0tB+yWgX8w==
@@ -106,17 +86,17 @@
   resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-2.0.1.tgz#0a5b22367f8aaa9ab60f50ccf1ef773c1fe92bdc"
   integrity sha512-niMgFcR7NHcsBVy8UAN3F2gqhmoN5v83st5Hu4YzvUL+6SNwjQmIipXppXdN9+iVneRjPr6PLGzDfI+wnjSBWQ==
 
-"@astrojs/starlight@0.17.3":
-  version "0.17.3"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.17.3.tgz#4361de0a3eb172867ad5c410b8e2b7c13fa4d093"
-  integrity sha512-TEI34d0N9Q2YXOGMS6wYEwv1rLsSkbCMa1JWnJ67UWIZ+bWfcM+kwHLnenwEHs9fQ5e0HvS2GWQxvRBb/mwYkw==
+"@astrojs/starlight@0.17.4":
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.17.4.tgz#a3dd860bd117a5b114aa390305e94b713e8c31e0"
+  integrity sha512-2XGtCM2zHwln/M5KDsZ3nO09WsjvWPQy3B+f3hi7T3QWPQFgtrEZAn1PzJWvszmS+dQRIpguXyyWZC2nwOizHQ==
   dependencies:
-    "@astrojs/mdx" "^2.0.4"
-    "@astrojs/sitemap" "^3.0.4"
+    "@astrojs/mdx" "^2.1.1"
+    "@astrojs/sitemap" "^3.0.5"
     "@pagefind/default-ui" "^1.0.3"
     "@types/hast" "^3.0.3"
     "@types/mdast" "^4.0.3"
-    astro-expressive-code "^0.32.2"
+    astro-expressive-code "^0.32.4"
     bcp-47 "^2.1.0"
     hast-util-select "^6.0.2"
     hastscript "^8.0.0"
@@ -499,10 +479,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.19.8.tgz#c8285183dbdb17008578dbacb6e22748709b4822"
   integrity sha512-bfZ0cQ1uZs2PqpulNL5j/3w+GDhP36k1K5c38QdQg+Swy51jFZWWeIkteNsufkQxp986wnqRRsb/bHbY1WQ7TA==
 
-"@expressive-code/core@^0.32.2":
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/@expressive-code/core/-/core-0.32.2.tgz#9966e133d279510c0a9a5806ed6033bd583ba55e"
-  integrity sha512-b4/LuslONCqyT48eKlcxsbnIqGw4CSe/aW4Co58UvKrtDMXKtr4erpVx/EE2emszotWt0xtkOjCnS6o171+E4A==
+"@expressive-code/core@^0.32.4":
+  version "0.32.4"
+  resolved "https://registry.yarnpkg.com/@expressive-code/core/-/core-0.32.4.tgz#91be5e983471abc4af603fb7c79ba3aa51a3eeb5"
+  integrity sha512-S0OwgZCy29OCcwFUBTLDrShUovIUWZcQn3EvSoKsGfzf/wTisK7XqZ1uH0Y7Mlof3Hf9uJMjOhJZvxTLtQUdSQ==
   dependencies:
     "@ctrl/tinycolor" "^3.6.0"
     hast-util-to-html "^8.0.4"
@@ -510,28 +490,28 @@
     postcss "^8.4.21"
     postcss-nested "^6.0.1"
 
-"@expressive-code/plugin-frames@^0.32.2":
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-frames/-/plugin-frames-0.32.2.tgz#374ca71578e10ddf1b4d9b4a718f2c4dd83e0e34"
-  integrity sha512-QKoL5jNCjQnz5GpQMBtZ8Gb1bNXxjarIBkMc8CIugdlvniA442latUKsH1fhacG1UQieSiADctSHjIvVH8Qm9A==
+"@expressive-code/plugin-frames@^0.32.4":
+  version "0.32.4"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-frames/-/plugin-frames-0.32.4.tgz#4b1331257d5a934c046523ce942c51c43f412087"
+  integrity sha512-XOQrLqlVEy5JbqsBhDcSJQinceQ5j/Z8cE0/27Lnlcj4oXRdiQNjMVtstC/xZUeWEbm+FI9ZZP4Z9yihol61Aw==
   dependencies:
-    "@expressive-code/core" "^0.32.2"
+    "@expressive-code/core" "^0.32.4"
     hastscript "^7.2.0"
 
-"@expressive-code/plugin-shiki@^0.32.2":
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-shiki/-/plugin-shiki-0.32.2.tgz#27758ab0f08cd0016c5e5357cd38bc9eeed7d723"
-  integrity sha512-ulNi/NAGMnx8qGBlRTGrH7qHeGV6r15MrkjY/AaTQNImnqory05DF4qOF/dqxe7WywawwsHQ2a4BzsoGYLjicA==
+"@expressive-code/plugin-shiki@^0.32.4":
+  version "0.32.4"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-shiki/-/plugin-shiki-0.32.4.tgz#1d46e069209bc99659cb7e1c57d6105575d4e917"
+  integrity sha512-zZzTXFFTpG+fmBG6C+4KzIyh1nFPdn4gLJ8E9LhBVufmRkn3gZplkE99lulfillsKyUZTRw3+dC3xYZWEZKzPw==
   dependencies:
-    "@expressive-code/core" "^0.32.2"
+    "@expressive-code/core" "^0.32.4"
     shikiji "^0.8.0"
 
-"@expressive-code/plugin-text-markers@^0.32.2":
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-text-markers/-/plugin-text-markers-0.32.2.tgz#89486e3ce328a4eb5eae0294c49690a7f77d6d59"
-  integrity sha512-1fAkWkQ7qcb6DDqV3ILB1uMi7yvSIu6AHFW+bSzNcgXBl/KCudoUtmZ/YRBnNKbUqH8WSYUA41Yr/SeFwEGmbQ==
+"@expressive-code/plugin-text-markers@^0.32.4":
+  version "0.32.4"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-text-markers/-/plugin-text-markers-0.32.4.tgz#3138dec85a2538fca7b2a5e6f7c4cf579b3cfe74"
+  integrity sha512-lFlo3uwTp7vUmfXtLPn2aXs0CPFqdFvKiR3y8gtNzmBeYWPqVahF4RFUCN9ZpztCmXp5V8p2ADvNHzoNwCBwzA==
   dependencies:
-    "@expressive-code/core" "^0.32.2"
+    "@expressive-code/core" "^0.32.4"
     hastscript "^7.2.0"
     unist-util-visit-parents "^5.1.3"
 
@@ -1040,13 +1020,13 @@ astring@^1.8.0:
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.8.6.tgz#2c9c157cf1739d67561c56ba896e6948f6b93731"
   integrity sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==
 
-astro-expressive-code@^0.32.2:
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/astro-expressive-code/-/astro-expressive-code-0.32.2.tgz#351e43ca24e296fa7db9d98b34957c09c7bdf26d"
-  integrity sha512-uJbgSCl9F9NGjdfTmBHci5Ws0/zMUNk9dWfOl6rvYaOL6NZha+NNjnmB3Aza7GnxP+NvQt3RV8M2vpcZnaudSw==
+astro-expressive-code@^0.32.4:
+  version "0.32.4"
+  resolved "https://registry.yarnpkg.com/astro-expressive-code/-/astro-expressive-code-0.32.4.tgz#9748496d658dec313694a469cb3031be728e8bf6"
+  integrity sha512-/Kq8wLMz0X2gbLWGmPryqEdFV/om/GROsoLtPFqLrLCRD5CpwxXAW185BIGZKf4iYsyJim1vvcpQm5Y9hV5B1g==
   dependencies:
     hast-util-to-html "^8.0.4"
-    remark-expressive-code "^0.32.2"
+    remark-expressive-code "^0.32.4"
 
 astro-webmanifest@^1.0.0:
   version "1.0.0"
@@ -1730,15 +1710,15 @@ expand-template@^2.0.3:
   resolved "https://registry.yarnpkg.com/expand-template/-/expand-template-2.0.3.tgz#6e14b3fcee0f3a6340ecb57d2e8918692052a47c"
   integrity sha512-XYfuKMvj4O35f/pOXLObndIRvyQ+/+6AhODh+OKWj9S9498pHHn/IMszH+gt0fBCRWMNfk1ZSp5x3AifmnI2vg==
 
-expressive-code@^0.32.2:
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/expressive-code/-/expressive-code-0.32.2.tgz#e74b428207a17517e608236716065f14525f3040"
-  integrity sha512-fUwnj9O6/5HKSniD/nXLEGKmcwqL+ipWyZAFjxp9weI9AkTiya3bVAo9gVUquM4jXRHSs8pgsRMQgRtKItlriA==
+expressive-code@^0.32.4:
+  version "0.32.4"
+  resolved "https://registry.yarnpkg.com/expressive-code/-/expressive-code-0.32.4.tgz#e4c6fa7aed3c6ad7b04d370898cfa4e8fd7e9e51"
+  integrity sha512-r+yUP2JV181tVR2EyYked7lT2W8bvL9o7xpdKU6q60FMU7Wh/DbGtH0jg+WmDxKK1C57iXF9chbBv+BsDPlUEQ==
   dependencies:
-    "@expressive-code/core" "^0.32.2"
-    "@expressive-code/plugin-frames" "^0.32.2"
-    "@expressive-code/plugin-shiki" "^0.32.2"
-    "@expressive-code/plugin-text-markers" "^0.32.2"
+    "@expressive-code/core" "^0.32.4"
+    "@expressive-code/plugin-frames" "^0.32.4"
+    "@expressive-code/plugin-shiki" "^0.32.4"
+    "@expressive-code/plugin-text-markers" "^0.32.4"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
@@ -3688,12 +3668,12 @@ remark-directive@^3.0.0:
     micromark-extension-directive "^3.0.0"
     unified "^11.0.0"
 
-remark-expressive-code@^0.32.2:
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/remark-expressive-code/-/remark-expressive-code-0.32.2.tgz#3148be2e16ede046d46082fe5d99ca3c2890801d"
-  integrity sha512-UnCUlu+Q2FO8glmtlEnjIN6V8IKfbGlYLSTDokbd9VCZHkI0+FeHcCc/5WpzGY2CSSPL02AC5rHUfvAZV7tZzQ==
+remark-expressive-code@^0.32.4:
+  version "0.32.4"
+  resolved "https://registry.yarnpkg.com/remark-expressive-code/-/remark-expressive-code-0.32.4.tgz#dc92aa71c7aec5e2a361888c082ba82419432994"
+  integrity sha512-khV7fVBpVDOyz9EXU+6MFwLj7BtY3DLVlNMMJYQcfp9ksLMxG/i83rIJbMUZCRof9bDBmFFlrF0VDvqJ0/MNeQ==
   dependencies:
-    expressive-code "^0.32.2"
+    expressive-code "^0.32.4"
     hast-util-to-html "^8.0.4"
     unist-util-visit "^4.1.2"
 
