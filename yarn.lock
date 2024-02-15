@@ -86,10 +86,10 @@
   resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-2.0.1.tgz#0a5b22367f8aaa9ab60f50ccf1ef773c1fe92bdc"
   integrity sha512-niMgFcR7NHcsBVy8UAN3F2gqhmoN5v83st5Hu4YzvUL+6SNwjQmIipXppXdN9+iVneRjPr6PLGzDfI+wnjSBWQ==
 
-"@astrojs/starlight@0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.18.0.tgz#624b370c6cb9c912bb5a217e5734dd42bb849158"
-  integrity sha512-pEYcuSf+t8aHJZQzGKJfgHGQpidrtifDqWE0jZevADpR+JJhyK2LXWhcOYCZiqDUil28FZmVr+/FrA3Dnw8xQQ==
+"@astrojs/starlight@0.18.1":
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.18.1.tgz#9810c744183c052ba3ab7a38b2fcfdaaf212cffa"
+  integrity sha512-6sM9m52fVsCfu4cR9M9ZIZLwPpbcS0/E6PZPGKaHinXbailzLZTtFQndPzDOEIFBOOPj6KQvGfrgQDby9rNovQ==
   dependencies:
     "@astrojs/mdx" "^2.1.1"
     "@astrojs/sitemap" "^3.0.5"
@@ -101,6 +101,7 @@
     hast-util-select "^6.0.2"
     hastscript "^8.0.0"
     mdast-util-directive "^3.0.0"
+    mdast-util-to-markdown "^2.1.0"
     pagefind "^1.0.3"
     rehype "^13.0.1"
     remark-directive "^3.0.0"
@@ -2685,7 +2686,7 @@ mdast-util-to-hast@13.0.2, mdast-util-to-hast@^13.0.0:
     unist-util-position "^5.0.0"
     unist-util-visit "^5.0.0"
 
-mdast-util-to-markdown@^2.0.0:
+mdast-util-to-markdown@^2.0.0, mdast-util-to-markdown@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mdast-util-to-markdown/-/mdast-util-to-markdown-2.1.0.tgz#9813f1d6e0cdaac7c244ec8c6dabfdb2102ea2b4"
   integrity sha512-SR2VnIEdVNCJbP6y7kVTJgPLifdr8WEU440fQec7qHoHOUz/oJ2jmNRqdDQ3rbiStOXb2mCDGTuwsK5OPUgYlQ==
