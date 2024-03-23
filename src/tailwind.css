@@ -17,6 +17,7 @@ html[data-theme='light'] .starlight-aside--note {
 	@apply bg-accent-100 dark:bg-accent-800 border-accent-400 dark:border-accent-500;
 }
 
-img {
+img,
+aside {
 	@apply rounded-lg;
 }

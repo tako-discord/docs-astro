@@ -41,9 +41,15 @@ export default defineConfig({
 					items: [
 						{
 							label: 'Info',
-							autogenerate: {
-								directory: 'commands/info',
-							},
+							// autogenerate: {
+							// 	directory: 'commands/info',
+							// },
+							items: [
+								{ label: 'Ping', link: '/commands/info/ping' },
+								{ label: 'Urban Dictionary', link: '/commands/info/urban' },
+								{ label: 'User Info', link: '/commands/info/user' },
+								{ label: 'Badge Info', link: '/commands/info/badge', badge: { text: 'WIP', variant: 'caution' }, },
+							],
 						},
 						{
 							label: 'Utility',
@@ -55,12 +61,12 @@ export default defineConfig({
 							},
 						},
 						{
-							label: 'Miscellaneous',
+							label: 'Fun',
 							translations: {
-								de: 'Anderes',
+								de: 'Spaß',
 							},
 							autogenerate: {
-								directory: 'commands/misc',
+								directory: 'commands/fun',
 							},
 						},
 					],
