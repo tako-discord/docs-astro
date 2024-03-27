@@ -4,6 +4,7 @@ description: A reference page for the "/urban-dictionary" command inside the Tak
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
 
 With `/urban-dictionary`, you can serach for the definition of a word using data from Urban Dictionary.
 
@@ -11,7 +12,7 @@ With `/urban-dictionary`, you can serach for the definition of a word using data
 
 <Tabs>
 	<TabItem label="Slash Commands">
-		<code>/urban-dictionary</code>
+		`/urban-dictionary <term> [strict] [match-case] [ephemeral]`
 	</TabItem>
 </Tabs>
 
@@ -24,19 +25,22 @@ With `/urban-dictionary`, you can serach for the definition of a word using data
 		koonce
     </TabItem>
 	<TabItem label="Strict">
-        Whether to use strict mode or not. The default is `false`.
+        <Badge text="Default: false" />
+        Whether to use strict mode or not.
 
         **Example (`true`)**:
 		Returns only "bigger" and not "biggering", "biggered".
     </TabItem>
 	<TabItem label="Match Case">
-        Whether the results need to match the casing of the term. The default is `false`.
+        <Badge text="Default: false" />
+        Whether the results need to match the casing of the term.
 
         **Example (`true`)**:
 		Just returns results for "hEllO" and not "hello".
     </TabItem>
 	<TabItem label="Ephemeral">
-        Whether to send the response as an ephemeral message (only visible to you). The default is `false`.
+        <Badge text="Default: false" />
+        Whether to send the response as an ephemeral message (only visible to you).
 
         **Example (`true`)**:
 		![A screenshot showing the ephemeral response of the command](../../../../../assets/info/urban-ephemeral.png)

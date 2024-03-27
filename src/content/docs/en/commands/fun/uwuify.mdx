@@ -4,6 +4,7 @@ description: A reference page for the "/uwuify" command inside the Tako Discord 
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
 
 With `/uwuify`, you can easily "uwuify" your messages. This can include stutters, actions, faces and some other specialties, like replacing the R with the L.
 
@@ -11,17 +12,21 @@ With `/uwuify`, you can easily "uwuify" your messages. This can include stutters
 
 <Tabs>
 	<TabItem label="Slash Commands">
-		<code>/uwuify message\:This is the text, that will be uwuified</code>
+		`/uwuify <message> [stutters] [faces] [actions] [exclamations]`
 	</TabItem>
 </Tabs>
 
 ## Options
 
-All options excluding the `message` option, is a percentage-based number that can range from 0-100.
+All options excluding the `message` option, is a percentage-based number that can range from `0-100`.
 
 <Tabs>
+    <TabItem label="Message">
+        This is the text, that will be uwuified.
+    </TabItem>
     <TabItem label="Stutters">
-        Chance of stutters. The default percentage is *10%*.
+        <Badge text="Default: 10%" />
+        Chance of stutters.
 
         **Example (10%)**:
         This i\~i\~is a text with a f\~f\~few stuttews.
@@ -31,14 +36,16 @@ All options excluding the `message` option, is a percentage-based number that ca
     </TabItem>
 
     <TabItem label="Faces">
-        Chance of faces. The default percentage is *0%*.
+        <Badge text="Default: 0%" />
+        Chance of faces.
 
         **Example (100%)**:
         This (◡ ꒳ ◡) is ( ᵘ ꒳ ᵘ ✼) a (◡ ꒳ ◡) text ღ(U꒳Uღ) with ( ᵘ ꒳ ᵘ ✼) faces ^w^ in ˚(ꈍ ω ꈍ).₊̣̇. between ( ͡U ω ͡U ) evewy :･ﾟ✧(ꈍᴗꈍ)✧･ﾟ: wowd (◡ w ◡).
     </TabItem>
 
     <TabItem label="Actions">
-        Chance of actions. The default percentage is *5%*.
+        <Badge text="Default: 5%" />
+        Chance of actions.
 
         **Example (10%)**:
         This ***nuzzles your necky wecky*** is a text with defauwt actions.
@@ -48,7 +55,8 @@ All options excluding the `message` option, is a percentage-based number that ca
     </TabItem>
 
     <TabItem label="Exclamations">
-        Chance of replacing an exclamation. The default percentage is *25%*.
+        <Badge text="Default: 25%" />
+        Chance of replacing an exclamation.
 
         **Example (100%)**:
         This is a text with speciaw excwamations!!1! Isn't this coow?!?!

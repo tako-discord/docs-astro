@@ -4,22 +4,24 @@ description: A reference page for the "/feedback" command inside the Tako Discor
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
 
 With `/feedback`, you can send feedback directly to the developers of the bot. This command is used to report bugs, suggest new features, or just to give general feedback about the bot.
 
 ## Usage
 <Tabs>
 	<TabItem label="Slash Commands">
-        <code>/feedback</code>
+        <code>/feedback [priority]</code>
     </TabItem>
 </Tabs>
 
 ## Options
 <Tabs>
     <TabItem label="Priority">
+        <Badge text="Default: None" />
         The priority of the feedback. You will be presented with a list of priorities to choose from.
 
-        - None (Default)
+        - None
         - Low
         - Normal
         - High
