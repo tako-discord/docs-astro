@@ -20,7 +20,7 @@ export default defineConfig({
 				replacesTitle: true,
 			},
 			social: {
-				github: 'https://github.com/tako-discord/docs-astro',
+				github: 'https://github.com/tako-discord',
 				discord: 'https://discord.gg/wDm8Qe6mud',
 			},
 			editLink: {
@@ -48,7 +48,7 @@ export default defineConfig({
 								{ label: 'Ping', link: '/commands/info/ping' },
 								{ label: 'Urban Dictionary', link: '/commands/info/urban' },
 								{ label: 'User Info', link: '/commands/info/user' },
-								{ label: 'Badge Info', link: '/commands/info/badge', badge: { text: 'WIP', variant: 'caution' }, },
+								{ label: 'Badge Info', link: '/commands/info/badge', badge: { text: 'WIP', variant: 'caution' } },
 							],
 						},
 						{
